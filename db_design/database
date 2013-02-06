@@ -1,0 +1,11 @@
+mysql> DESCRIBE garbage_count;
++--------------------+-------------+------+-----+-------------------+----------------+
+| Field              | Type        | Null | Key | Default           | Extra          |
++--------------------+-------------+------+-----+-------------------+----------------+
+| id                 | int(11)     | NO   | PRI | NULL              | auto_increment |
+| household          | varchar(50) | YES  |     | NULL              |                |
+| small_trash_bags   | smallint(9) | YES  |     | NULL              |                |
+| kitchen_trash_bags | smallint(9) | YES  |     | NULL              |                |
+| large_trash_bags   | smallint(9) | YES  |     | NULL              |                |
+| date_time          | timestamp   | NO   |     | CURRENT_TIMESTAMP |                |
++--------------------+-------------+------+-----+-------------------+----------------+
