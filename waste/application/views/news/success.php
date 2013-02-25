@@ -1,0 +1,1 @@
+<h1>Added the news item, successfully </h1>
